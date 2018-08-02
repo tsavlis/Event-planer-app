@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-
+import EventDashboard from '../../features/event/EventDashboard/EventDashboard';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <h1>My Apaspf111</h1>
+        <EventDashboard/>
       </div>
     );
   }
